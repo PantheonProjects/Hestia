@@ -42,7 +42,7 @@ Hestia is an extension for your browser which allows you to search your bookmark
 Pop-up
 :----------:
 [Popup user interface]
-<a href="https://github.com/sud0x00/Hestia/wiki/Quick-guide:-popup-user-interface"><img src="https://github.com/sud0x00/Hestia/blob/main/images/sample.png"/></a><br><sup>.<br>.</sup>
+<a href="https://github.com/sud0x00/Hestia/wiki/Quick-guide:-popup-user-interface"><img src="https://github.com/sud0x00/Hestia/blob/main/images/sample.png"/></a>
 
 Visit the [wiki][Wiki] for documentation.
 
@@ -57,38 +57,17 @@ Inspiration for the name Hestia comes from the Greek virgin goddess of the heart
 
 ## Installation
 
-[Required Permissions][Permissions]
-
-#### Chromium
-
-[Chrome Web Store][Chrome]
-
-[Microsoft Edge Add-ons][Edge] (Published by: [Sudhanva Athreya][Sudhanva Athreya])
-
-[Opera Add-ons][Opera]
-
-[Development Build][Chrome Dev]
-
-Hestia should be compatible with any Chromium-based browser.
-
 #### Firefox / Firefox for Android
 
-[Firefox Add-ons][Mozilla]
-
-[Development Build][Beta]
+[Firefox Add-ons](https://addons.mozilla.org/addon/hestia/)
 
 
-[Manual Installation][Manual Installation]
+[Manual Installation](https://github.com/sud0x00/Hestia/tree/master/dist#install)
 
 ## Release History
 
-[Releases Page][Releases]
+[Releases Page](https://github.com/sud0x00/Hestia/releases)
 
-## About
-
-[Manifesto][Manifesto]
-
-Free. Open-source. For users by users. Donations are welcome.
 
 ## License
 
