@@ -1,0 +1,105 @@
+/* Styles for the popup interface */
+body {
+    margin: 20;
+    padding: 40;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #333;
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 20px;
+    background-color: #4f88b5;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  #search {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    margin: 20px 0 10px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #bookmarks {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    max-height: 800px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .bookmark {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .bookmark:hover {
+    background-color: #f5f5f5;
+    transform: translateX(5px);
+  }
+  
+  .bookmark .title {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .bookmark .title:hover {
+    color: #4f88b5;
+  }
+  
+  .bookmark .url,
+  .bookmark .tags {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: #888;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .bookmark .url:hover,
+  .bookmark .tags:hover {
+    color: #4f88b5;
+  }
+  
+  .message {
+    margin: 10px 20px;
+    font-style: italic;
+    font-size: 12px;
+    color: #888;
+    text-align: center;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #4f88b5;
+  }
+  
