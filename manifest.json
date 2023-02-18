@@ -5,7 +5,7 @@
   
     "description": "Search your bookmarks easily",
     "icons": {
-      "48": "icon.png"
+      "48": "images/icon.png"
     },
   
     "permissions": ["bookmarks"],
