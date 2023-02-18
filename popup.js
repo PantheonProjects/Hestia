@@ -1,6 +1,30 @@
+// Queries against the title alone
+//  function searchBookmarks(query) {
+//     return browser.bookmarks.search(query);
+//   }
+//
+//  Queries against the title & url
+//  function searchBookmarks(query) {
+//      return browser.bookmarks.search({
+//        query: query,
+//        url: query
+//      });
+//    }
+//    
+// Performs Fuzzy search on title , url , tags & description ,
+
 function searchBookmarks(query) {
-    return browser.bookmarks.search(query);
+    var regex = new RegExp(query, "i"); // create a case-insensitive regular expression
+    return browser.bookmarks.search({}).then(function(results) {
+      return results.filter(function(result) {
+        return regex.test(result.title) ||
+               regex.test(result.url) ||
+               (result.tags && regex.test(result.tags.join(" "))) ||
+               (result.description && regex.test(result.description));
+      });
+    });
   }
+  
   
   function displayBookmarks(bookmarks) {
     var ul = document.getElementById("bookmarks-list");
