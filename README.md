@@ -16,7 +16,7 @@ Hestia
 ***
 
 <p align="center">
-<a href="https://addons.mozilla.org/addon/addon-url/"><img src="https://user-images.githubusercontent.com/585534/107280546-7b9b2a00-6a26-11eb-8f9f-f95932f4bfec.png" alt="Get Hestia for Firefox"></a>
+<a href="https://addons.mozilla.org/en-US/firefox/addon/hestia-search/"><img src="https://user-images.githubusercontent.com/585534/107280546-7b9b2a00-6a26-11eb-8f9f-f95932f4bfec.png" alt="Get Hestia for Firefox"></a>
 </p>
 
 ***
