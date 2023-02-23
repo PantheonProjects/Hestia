@@ -48,7 +48,9 @@ For support, questions, or help, ping me on email [athreya.kunal@yahoo.com](mail
 
 Hestia is an extension for your browser which allows you to search your bookmarks and bookmark folders. You'll be provided with a link once you perform the search which allows you to easily access your bookmarks without much trouble. I was wanted to make such an extension from a long time and then I found [BSP2](https://github.com/aaFn/Bookmark-search-plus-2) , but I couldn't get adjusted to it. Hence I decided to make my own extension. 
 
-Inspiration for the name Hestia comes from the Greek virgin goddess of the hearth, home, and hospitality.
+Inspiration for the name Hestia comes from ancient Greek goddess of the hearth, home, and architecture.
+
+Like Hestia, who tended to the sacred hearth fire and ensured that it never went out, the Hestia extension can help users keep their bookmark collections organized and accessible. By providing tools to search, sort, and categorize bookmarks, Hestia can make it easier for users to find the websites and resources they need to make their online experience comfortable and efficient.
 
 ## Installation
 
